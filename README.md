@@ -43,3 +43,7 @@ Las autoridades se actualizaron con los sitios institucionales de la gestión 20
 ## Ajuste de portada (5/11/2026)
 
 Encabezado con el membrete institucional original, con el bloque del año oculto mediante el encuadre CSS. El archivo original se conserva intacto. Portada centrada en la identidad del 53; se retiraron el texto promocional adicional, botón, fecha y sede de la antigua columna izquierda y el símbolo junto a Promoción. La sección El acto aparece inmediatamente después de la identidad, seguida de la búsqueda y las carreras.
+
+## Oferta de posgrado en el cierre
+
+Se retiró el pie claro y se reemplazó el contenido del bloque azul por la oferta de posgrado, agrupada en doctorados, maestrías y especializaciones, con enlaces a las nueve fichas del sitio institucional. Fuente verificada el 5/11/2026: https://fcp.uncuyo.edu.ar/estudios/posgrados. No se anuncian inscripciones abiertas ni condiciones no verificadas.
