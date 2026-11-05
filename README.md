@@ -39,3 +39,7 @@ Actualizar también `nomina-egresades.txt` si se modifica la nómina. La fecha y
 - Himno: enlace a la página correspondiente del sitio anterior. No se reproduce su letra en el repositorio.
 
 Las autoridades se actualizaron con los sitios institucionales de la gestión 2026–2030, en lugar de arrastrar la nómina 2022–2026 del sitio de referencia. Antes de difusión final, revisar títulos, integración de la mesa académica, programa y grafías dudosas del expediente (por ejemplo «GarcIa» y «Betiiana»).
+
+## Ajuste de portada (5/11/2026)
+
+Encabezado con el membrete institucional original, con el bloque del año oculto mediante el encuadre CSS. El archivo original se conserva intacto. Portada centrada en la identidad del 53; se retiraron el texto promocional adicional, botón, fecha y sede de la antigua columna izquierda y el símbolo junto a Promoción. La sección El acto aparece inmediatamente después de la identidad, seguida de la búsqueda y las carreras.

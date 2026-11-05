@@ -27,8 +27,13 @@ function render(query='') {
   const tokens = normalize(query.trim()).split(/\s+/).filter(Boolean);
   const searching = tokens.length>0;
   const groups = new Map();
+  const actRows = [];
   let results=0;
   content.sections.forEach((section,index)=>{
+    if(section.kind !== 'graduates') {
+      actRows.push(`<details id="${section.id}" ${expanded.has(section.id)?'open':''}><summary><span class="row-number">${String(index+1).padStart(2,'0')}</span><span class="row-title">${escapeHTML(section.title)}</span><span class="row-icon" aria-hidden="true">+</span></summary><div class="detail-body">${sectionBody(section,null,'')}</div></details>`);
+      return;
+    }
     let courses=section.courses;
     if(searching) {
       if(section.kind!=='graduates') return;
@@ -42,12 +47,13 @@ function render(query='') {
     if(!groups.has(section.group)) groups.set(section.group,[]);
     groups.get(section.group).push(row);
   });
+  $('#act-sections').innerHTML=`<section class="section-group" id="grupo-el-acto" aria-labelledby="grupo-el-acto-title"><div class="group-heading"><h2 id="grupo-el-acto-title">El acto</h2><span>4 SECCIONES</span></div>${actRows.join('')}</section>`;
   $('#sections').innerHTML=[...groups].map(([group,rows])=>`<section class="section-group" id="${groupId(group)}" aria-labelledby="${groupId(group)}-title"><div class="group-heading"><h3 id="${groupId(group)}-title">${escapeHTML(group)}</h3><span>${rows.length} ${rows.length===1?'SECCIÓN':'SECCIONES'}</span></div>${rows.join('')}</section>`).join('');
   $('#empty').hidden=groups.size>0;
   $('#clear-search').hidden=!query;
   $('#search-status').textContent=searching ? `${results} ${results===1?'coincidencia':'coincidencias'} en la nómina de egresades.` : 'Explorá las secciones o buscá en la nómina.';
   document.querySelectorAll('details').forEach(detail=>detail.addEventListener('toggle',()=>{
-    if(!searching) {
+    if(!searching || detail.closest('#act-sections')) {
       if(detail.open) expanded.add(detail.id); else expanded.delete(detail.id);
     }
   }));
@@ -72,7 +78,8 @@ async function init(){
     window.addEventListener('hashchange',openHash);
     document.querySelectorAll('.side-index a[href^="#"]').forEach(link=>link.addEventListener('click',()=>{if($('#search').value){$('#search').value='';render();}}));
   } catch(error){
-    $('#sections').innerHTML='<p class="status-note">No pudimos cargar la guía. Podés recargar la página o consultar la nómina completa.</p><a class="text-link" href="nomina-egresades.txt">Abrir la nómina de egresades ↓</a>';
+    $('#act-sections').innerHTML=`<section class="section-group" id="grupo-el-acto" aria-labelledby="grupo-el-acto-title"><div class="group-heading"><h2 id="grupo-el-acto-title">El acto</h2><span>4 SECCIONES</span></div>${actRows.join('')}</section>`;
+  $('#sections').innerHTML='<p class="status-note">No pudimos cargar la guía. Podés recargar la página o consultar la nómina completa.</p><a class="text-link" href="nomina-egresades.txt">Abrir la nómina de egresades ↓</a>';
     $('#search').disabled=true;
     $('#search-status').textContent='La búsqueda estará disponible cuando se cargue la guía.';
   }
