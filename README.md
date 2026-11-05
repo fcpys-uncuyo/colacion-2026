@@ -47,3 +47,7 @@ Encabezado con el membrete institucional original, con el bloque del año oculto
 ## Oferta de posgrado en el cierre
 
 Se retiró el pie claro y se reemplazó el contenido del bloque azul por la oferta de posgrado, agrupada en doctorados, maestrías y especializaciones, con enlaces a las nueve fichas del sitio institucional. Fuente verificada el 5/11/2026: https://fcp.uncuyo.edu.ar/estudios/posgrados. No se anuncian inscripciones abiertas ni condiciones no verificadas.
+
+## Identidad animada
+
+La portada utiliza `identidad-colacion-53.gif`, convertido del video suministrado: 480 × 853 px, 12 fps, 72 fotogramas y repetición infinita. Se conserva el JPEG original en el repositorio.
