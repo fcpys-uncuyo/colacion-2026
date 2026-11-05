@@ -1,0 +1,657 @@
+{
+  "edition": "53ª",
+  "promotion": "2025–2026",
+  "date": "27 de noviembre de 2026",
+  "venue": "Auditorio Bustelo",
+  "sections": [
+    {
+      "id": "autoridades-uncuyo",
+      "title": "Autoridades de la Universidad Nacional de Cuyo",
+      "group": "El acto",
+      "kind": "authorities",
+      "people": [
+        [
+          "Rectora",
+          "Lic. Esp. Adriana García"
+        ],
+        [
+          "Vicerrectora",
+          "Dra. Ana Sisti"
+        ],
+        [
+          "Secretaría Académica",
+          "Dra. Ana Sisti"
+        ],
+        [
+          "Secretaría General",
+          "Dr. Adolfo Cueto"
+        ],
+        [
+          "Secretaría de Gestión Económica y de Servicios",
+          "Lic. Nicolás Sanfilippo"
+        ],
+        [
+          "Secretaría de Investigación, Internacionales, Posgrado e Innovación",
+          "Mgter. Gastón Burlot"
+        ],
+        [
+          "Secretaría de Extensión Universitaria",
+          "Dr. Javier Ozollo"
+        ],
+        [
+          "Secretaría de Educación Digital",
+          "Mgter. Marcela Tagua"
+        ],
+        [
+          "Secretaría de Articulación Institucional y Medios",
+          "Mgter. Sergio Luza"
+        ],
+        [
+          "Secretaría de Vinculación Tecnológica",
+          "Ing. Pablo De Simone"
+        ],
+        [
+          "Secretaría de Bienestar Universitario",
+          "Lic. Noelia Naranjo"
+        ],
+        [
+          "Área de Articulación Social",
+          "Lic. Gustavo Nieto"
+        ],
+        [
+          "Área de Planificación y Políticas Públicas",
+          "Lic. Paula Petrelli"
+        ]
+      ],
+      "source": "https://www.uncuyo.edu.ar/autoridades"
+    },
+    {
+      "id": "autoridades-fcpys",
+      "title": "Autoridades de la Facultad de Ciencias Políticas y Sociales",
+      "group": "El acto",
+      "kind": "authorities",
+      "people": [
+        [
+          "Decano",
+          "Dr. Fabio Erreguerena"
+        ],
+        [
+          "Vicedecana",
+          "Dra. Melina Guardamagna"
+        ],
+        [
+          "Secretaría Académica",
+          "Dra. Laura Neri"
+        ],
+        [
+          "Secretaría General",
+          "Mgter. Gonzalo Navarro Sanz"
+        ],
+        [
+          "Secretaría de Extensión y Relaciones Institucionales",
+          "Maria Silvina Cailly"
+        ],
+        [
+          "Secretaría de Egresadas y Egresados",
+          "Sergio Tuseddu"
+        ],
+        [
+          "Secretaría de Vida Universitaria",
+          "Aixa Honorato"
+        ],
+        [
+          "Secretaría de Investigación, Ciencia Abierta y Posgrado",
+          "Dr. Maximiliano Salatino"
+        ],
+        [
+          "Área de Comunicación Institucional",
+          "Valentina González"
+        ],
+        [
+          "Área de Derechos Humanos",
+          "Paula Baigorria Bernal"
+        ],
+        [
+          "Área de Educación a Distancia y Transformación Digital",
+          "Lisa Martínez"
+        ]
+      ],
+      "source": "https://fcp.uncuyo.edu.ar/autoridades5091"
+    },
+    {
+      "id": "programacion",
+      "title": "Programación",
+      "group": "El acto",
+      "kind": "program",
+      "items": [
+        "Apertura",
+        "Número artístico",
+        "Bienvenida formal al acto",
+        "Proyección de pieza audiovisual · FCPyS",
+        "Ingreso de Banderas de Ceremonia",
+        "Himno Nacional Argentino",
+        "Himno de la UNCUYO",
+        "Conformación de Mesa Académica",
+        "Cambio de abanderados y escoltas",
+        "Retiro de las Banderas de Ceremonia",
+        "Palabras del Decano",
+        "Entrega de Medallas y Distinciones",
+        "Palabras de une egresade",
+        "Entrega de Diplomas",
+        "Cierre del Acto"
+      ],
+      "status": "Secuencia de referencia de la edición anterior. Programa 2026 a confirmar."
+    },
+    {
+      "id": "himno",
+      "title": "Himno de la Universidad Nacional de Cuyo",
+      "group": "El acto",
+      "kind": "hymn",
+      "url": "https://colacionfcpys.myportfolio.com/himno-de-la-universidad-nacional-de-cuyo"
+    },
+    {
+      "id": "doctorado",
+      "title": "Doctorado en Ciencias Sociales",
+      "group": "Posgrado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Doctorado en Ciencias Sociales",
+          "names": [
+            "Ferrari Slukich, Gian",
+            "Ferraro Pettignano, Estefanía Gisel",
+            "Iovanna Caisson, Silvana Cristina",
+            "Ledda, Valentina Lihué",
+            "Lucero Belgrano, María Inés",
+            "Magallanes, Rodrigo Martín",
+            "Montaldi, Aldana Marcela",
+            "Palazzolo, Natalia Estefanía",
+            "Perez Linares, Marcos",
+            "Potaschner, Leandro Ezequiel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maestrias",
+      "title": "Maestrías",
+      "group": "Posgrado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Maestría en Estudios Latinoamericanos",
+          "names": [
+            "Castelluchi, Lautaro Jerónimo",
+            "Elgueta, Ana Claudia",
+            "Martín, Santiago Andrés",
+            "Ruiz, Marisol",
+            "Suárez, Mariano Ezequiel"
+          ]
+        },
+        {
+          "title": "Maestría en Política y Planificación Social",
+          "names": [
+            "Boggia, María Fernanda",
+            "Vega Espinoza, Emilce"
+          ]
+        },
+        {
+          "title": "Maestría en Análisis Institucional",
+          "names": [
+            "Jodar, María Belén",
+            "Reghitto, Claudia Beatriz"
+          ]
+        },
+        {
+          "title": "Maestría en Estudios Feministas",
+          "names": [
+            "Abello, Virginia Tatiana",
+            "Martín Varela, Milagros",
+            "Rodriguez, Gisella Karen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "especializaciones",
+      "title": "Especializaciones",
+      "group": "Posgrado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Especialización en Gestión Social",
+          "names": [
+            "Teves, Alejandra",
+            "Torres, Marcos"
+          ]
+        },
+        {
+          "title": "Especialización en Gobierno y Gestión Pública",
+          "names": [
+            "Cabrera, Lorena Elizabeth",
+            "Jadra, Dante Marcos Ramiro",
+            "Latorre, Adriana Mónica",
+            "Moro, Mariano Sebastián",
+            "Tomasella, Betiiana Lady"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ciencia-politica",
+      "title": "Licenciatura en Ciencia Política y Administración Pública",
+      "group": "Grado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Licenciatura en Ciencia Política y Administración Pública",
+          "names": [
+            "Andreu Diaz, Ailen Camila",
+            "Bomparola, Agustin",
+            "Colombo Sola, María Paloma",
+            "Coronel, Juan Pablo",
+            "Cuchietti, Héctor Maximiliano",
+            "Dominguez Fernandez, Lautaro Gabriel",
+            "Fernandez, José Ricardo",
+            "Gallardo, Edgar Jesús",
+            "Hermanjat, Adolfo",
+            "Lopez Riveros, Juan Ignacio",
+            "Marchevsky Mansur, Lautaro Aarón",
+            "Martinez Farina, Jaime Valentín",
+            "Meneguelli Andia, Martina",
+            "Miranda, Facundo Miguel",
+            "Olivera, Matias Ezequiel",
+            "Ortega Castiñeira de Dios, Juan Manuel",
+            "Rivero, Lihue Camilo",
+            "Salas, Andrea Ivana",
+            "Seselj, Danilo Joel",
+            "Sosa, Camila Anahí",
+            "Tormo, Agostina Belén",
+            "Vega, Juan Manuel Nicolás",
+            "Villar, Leonela Patricia",
+            "Zapata Bisaguirre, Albana"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sociologia",
+      "title": "Licenciatura en Sociología",
+      "group": "Grado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Licenciatura en Sociología",
+          "names": [
+            "Aguilera, Milagros Ayelén",
+            "Dapás, Ashlen",
+            "Espinoza, Gabriela Celeste",
+            "Fajardo Marrone, Francisco José",
+            "Gomez, Marianela Stefany",
+            "Herrera, Germán Jesús",
+            "Isuani Galarza, Gabriela Mariel",
+            "Lopez Rubio, Alvaro",
+            "Lozano, Julieta Micaela",
+            "Lucero Zuluaga, Manuela",
+            "Marianetti Cánovas, Agostina",
+            "Montalto, Ana Josefina",
+            "Vera Tristán, Juan Pablo",
+            "Vilches GarcIa, Gabriel Emanuel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trabajo-social",
+      "title": "Licenciatura en Trabajo Social",
+      "group": "Grado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Licenciatura en Trabajo Social",
+          "names": [
+            "Albino, Aldana Ailen",
+            "Alvarez Vanini, Valentina Azul",
+            "Arancibia, Jessica Anabella",
+            "Arias, Macarena Rocío",
+            "Baez, Elba Mabel",
+            "Barros, Brenda Anahi",
+            "Bazán Torres, Stella Maris Betiana",
+            "Bollea Rubia, Sofía",
+            "Bracon, Camila Andrea",
+            "Bustos Lira, Yémina Carolina",
+            "Cannizzo, Angeles Antonia",
+            "Castro, Agustina Florencia",
+            "Castro, Elsa Lourdes Belén",
+            "Clos, Natalio Augusto",
+            "D`Agustino Malla, Candela Ayelén",
+            "de Paz, María Fernanda",
+            "Echegaray, Lucas Manuel",
+            "Farina, María Eugenia",
+            "Figueroa, Julieta Soledad",
+            "Galvan, Alejandra Mariana Gabriela",
+            "Garcia Alcaraz, Agostina Ailen",
+            "Garrido, Carla Lorena",
+            "Gomez, Gianella Yasmín",
+            "Gonzalez, Erika Daniela",
+            "Gonzalez, Julieta Aluhe",
+            "Gutierrez, Julieta Melina",
+            "Lanza, Florencia Belén",
+            "Leva Lucena, Ana Belén",
+            "Linares, Sofía Belén",
+            "Maldonado, Oriana Gisel Carolina",
+            "Mallea, Analía Lourdes",
+            "Manresa Loyola, Julieta Carolina",
+            "Maturano, Ailen Nair",
+            "Montenegro, María José",
+            "Morales, Ivana Mariel",
+            "Muñoz, Agustina Micaela",
+            "Olivares, Débora Noelia",
+            "Pante, Aldana Camila",
+            "Pereyra, Micaela Belén",
+            "Perez Linares, Emilio",
+            "Perez Peccinetti, Valentina",
+            "Perez, Camila Deolinda",
+            "Ponce, Anabel Johana",
+            "Reguera Pedrini, Edwina Celeste",
+            "Riera, Claudia Alejandra",
+            "Rios Paiva, Agustina Anahí",
+            "Ríos Sepúlveda, Angeles Rocío Cristal",
+            "Rocamora Martino, María Julieta",
+            "Salinas, Dalma Ayelén",
+            "Sanchez, Yamila Milagros",
+            "Tejada, Anabel Vanina",
+            "Torres Renchesn, Fátima Daniela",
+            "Vega Montero, Sabrina Elizabeth",
+            "Vega, Milagros Micaela Natalí",
+            "Veliz Chuquisea, Mónica",
+            "Viola Merino, Mariana Paula"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comunicacion-social",
+      "title": "Licenciatura en Comunicación Social",
+      "group": "Grado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Licenciatura en Comunicación Social",
+          "names": [
+            "Alvarez Vega, Agustín",
+            "Arrojo, Martín",
+            "Atienza Reynaud, Martina Candelaria",
+            "Barbero, Ariela Fabiana",
+            "Berger Grossi, Pablo Gabriel",
+            "Beucher, Melanie Ailín",
+            "Bonino Di Blassi, Agostina Grisel",
+            "Cañadas, Alejandra Marcela",
+            "Capello, Julieta Agostina",
+            "Casciani, Silvia Inés Ceferina",
+            "Caylá, Anahí Mariel",
+            "Curadelli Amani, Lourdes Agustina",
+            "Diaz, Malena",
+            "Dominguez, Carolina Andrea",
+            "Femenía Favier, Sofía",
+            "Ferrando, María Belén",
+            "Guelis, Agustina Micaela",
+            "Ibarra, Solange Abigail",
+            "Jalif Alvarez, María Victoria",
+            "Jaque, Paola Jaquelina",
+            "Lopez, Lautaro Román",
+            "Lucero D`Amelio, Evelyn Carolina",
+            "Martinez, Sofía Berenice",
+            "Murcia, Lucía",
+            "Navarro Robledo, Camila Erika",
+            "Nicosia, Paula Cecilia",
+            "Olivera, Patricia Alejandra",
+            "Ortiz, Julieta Abril",
+            "Peralta Villarruel, Sebastián Martin",
+            "Pezzola Camardella, Erika Vanesa",
+            "Quinn, Agustina Anabel",
+            "Ramirez, Lucila Antonella",
+            "Riveros, Ezequiel Nicolás",
+            "Ruiz Herrada, Sol Ariadna",
+            "Sanhueza Acotto, Andrea Carolina",
+            "Schiappapietra, Franco",
+            "Seadi, Miriam Liliana",
+            "Sosa Ponce, Mauro Alejandro",
+            "Sparta, Paola Estefanía",
+            "Suarez, Natalia Marina",
+            "Taroppio Alin, María de los Angeles",
+            "Wolberg, Sthefani Nicol",
+            "Zulian, Laura Elisabeth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gestion-universitaria",
+      "title": "Licenciatura en Gestión y Administración Universitaria",
+      "group": "Grado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Licenciatura en Gestión y Administración Universitaria",
+          "names": [
+            "Palana, Carla Gianina"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "produccion-medios",
+      "title": "Licenciatura en Producción de Medios de Comunicación",
+      "group": "Grado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Licenciatura en Producción de Medios de Comunicación",
+          "names": [
+            "Ortiz, Julieta Zoé",
+            "Sesto, Bruno Sebastián"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organizaciones",
+      "title": "Tecnicatura Universitaria en Gestión y Administración de las Organizaciones, con Orientación en Instituciones Universitarias",
+      "group": "Pregrado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Tecnicatura Universitaria en Gestión y Administración de las Organizaciones, con Orientación en Instituciones Universitarias",
+          "names": [
+            "Carrizo, Silvina Beatriz",
+            "Escobar, Graciela Beatriz",
+            "Ferrufino, Gabriela Elizabeth",
+            "Galván, Victoria Alejandra",
+            "Sosa, Patricia Maria del Valle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audiovisual",
+      "title": "Tecnicatura Universitaria en Producción Audiovisual",
+      "group": "Pregrado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Tecnicatura Universitaria en Producción Audiovisual",
+          "names": [
+            "Anguita, Valeria Verónica",
+            "Anrango Vargas, Edgar Ramiro",
+            "Chingoleo, Ramiro Julián",
+            "Crespo Silva, María Andrea",
+            "De Ipola, Sofia Belen",
+            "Del Pícolo Chausino, Juan Cruz",
+            "Fernandez Lazzaro, Rocío Guadalupe",
+            "Ferrer Herrera, Mercedes",
+            "Giunta, Bruno Agustín",
+            "Guerra, Johanna Elena",
+            "Leyton, Salma Morena",
+            "Linares, Samuel Augusto",
+            "Martinez Gonzalez, Ciro Valentín",
+            "Mendella Lunati, Fabricio",
+            "Montiveros, Gabriella Fabiana",
+            "Parajon, Humberto Mariano",
+            "Parellada, Juan José",
+            "Passetti, Marcelo Fernando",
+            "Quispe, Ana Laura"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "instituciones-publicas",
+      "title": "Tecnicatura Universitaria en Gestión y Administración en Instituciones Públicas",
+      "group": "Pregrado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Tecnicatura Universitaria en Gestión y Administración en Instituciones Públicas",
+          "names": [
+            "Aguado, María Paola",
+            "Artuzo, Nélida Mariela",
+            "Burgos, Cecilia Gabriela",
+            "Bustos, Susana Noemí",
+            "Carrizo, Sergio Daniel",
+            "Fajner, Adriana Vanesa",
+            "Fioquetta Mercado, Emmanuel Antón",
+            "Funes Montenegro, Eduardo Javier",
+            "Garcia, Silvia Lorena",
+            "Giudice, Mariana de Lourdes",
+            "Griffoni, Andrea Anabelia",
+            "Lacave, Patricia Silvana Mabel",
+            "López Avila, Marcela Verónica",
+            "Martinez Alvaro, Alejandra Soledad",
+            "Montenegro, Gabriela Elizabeth",
+            "Neira, Marisa Alejandra",
+            "Páez, Mónica Patricia",
+            "Rivero Miranda, Ana",
+            "Rivero, Verónica Andrea",
+            "Tribiño, Leandro Ricardo Jonathan",
+            "Zlóbec Leiva, Johanna Valeria"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politicas-publicas",
+      "title": "Tecnicatura Universitaria en Gestión de Políticas Públicas",
+      "group": "Pregrado",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Tecnicatura Universitaria en Gestión de Políticas Públicas",
+          "names": [
+            "Barrios, Susana Gloria",
+            "Gonzalez Raso, Valentina",
+            "Pereyra, Marcelo Alejandro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profesorado-sociologia",
+      "title": "Profesorado en Sociología",
+      "group": "Profesorados",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Profesorado en Sociología",
+          "names": [
+            "Barbuzza, Ramiro Nicolás",
+            "Cubillos Arnulphi, Jorge Manuel",
+            "Cutugno, Camila Beatríz",
+            "Huerta, Ernesto Facundo",
+            "Legrottaglio Monge, Francisco",
+            "Masramón, Ernesto",
+            "Oliveros, Cristian Ariel",
+            "Pereyra, Mariana Ayelén",
+            "Rogé Vallone, María Julia",
+            "Roman, Juan Ignacio",
+            "Saganías, Elena Carolina",
+            "Sanchez, Ana Romina",
+            "Timpanaro, Verónica Rosa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profesorado-comunicacion",
+      "title": "Profesorado en Comunicación Social",
+      "group": "Profesorados",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Profesorado en Comunicación Social",
+          "names": [
+            "Alaniz, Facundo Darío",
+            "Bajuk Böhm, Ana María",
+            "Bermudez, Iván Fernando",
+            "Bustos, Martina Natalia",
+            "Cardenas Musatto, Agostina Ailen",
+            "Díaz, Carolina Yamila",
+            "Espeche, Carlos Ernesto",
+            "Jereb Coria, Vera",
+            "Laborda, Lucas Daniel",
+            "López Mallea, Josefina",
+            "Maturano, Soledad Julieta",
+            "Millán, Analía",
+            "Nazar, Laura Valeria",
+            "Perea Herrera, Romina Susana",
+            "Quiroga, Paola Alejandra",
+            "Sosa, Noelia Isabel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profesorado-trabajo-social",
+      "title": "Profesorado en Trabajo Social",
+      "group": "Profesorados",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Profesorado en Trabajo Social",
+          "names": [
+            "Andrada, Agustín Alexis",
+            "Castellino, Diana Elizabeth",
+            "Diaz, María Elizabeth",
+            "Estrella, Rosalia Margarita",
+            "Garcia Palumbo, Ana Clara",
+            "Jardel, María Laura",
+            "Klimisch, María Laura",
+            "Mamaní Umacata, Adriana Elizabeth",
+            "Martenchuk, Mirtha Nidia",
+            "Martin, Olga Angélica",
+            "Orellana Rodriguez, Betiana Estefanía",
+            "Picón, Mabel Alejandra",
+            "Prado, Mónica Beatríz",
+            "Solano Vallejos, Selva Rocio",
+            "Soria Galvarro Cruz, Simmel Coraly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profesorado-ciencia-politica",
+      "title": "Profesorado en Ciencia Política y Administración Pública",
+      "group": "Profesorados",
+      "kind": "graduates",
+      "courses": [
+        {
+          "title": "Profesorado en Ciencia Política y Administración Pública",
+          "names": [
+            "Italiano, Leandro Emanuel",
+            "Richard, Malvina Soledad"
+          ]
+        }
+      ]
+    }
+  ]
+}
