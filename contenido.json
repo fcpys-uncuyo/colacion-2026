@@ -126,21 +126,20 @@
       "items": [
         "Apertura",
         "Número artístico",
-        "Bienvenida formal al acto",
-        "Proyección de pieza audiovisual · FCPyS",
-        "Ingreso de Banderas de Ceremonia",
+        "Bienvenida formal al acto y producción audiovisual",
+        "Ingreso de las banderas",
         "Himno Nacional Argentino",
         "Himno de la UNCUYO",
-        "Conformación de Mesa Académica",
-        "Cambio de abanderados y escoltas",
-        "Retiro de las Banderas de Ceremonia",
-        "Palabras del Decano",
-        "Entrega de Medallas y Distinciones",
-        "Palabras de une egresade",
-        "Entrega de Diplomas",
-        "Cierre del Acto"
+        "Conformación de la mesa académica",
+        "Cambio de abanderadas y escoltas",
+        "Retiro de las banderas de ceremonia",
+        "Palabras del decano y rectora",
+        "Entrega de medallas",
+        "Palabras de una egresada",
+        "Entrega de diplomas",
+        "Cierre del acto"
       ],
-      "status": "Secuencia de referencia de la edición anterior. Programa 2026 a confirmar."
+      "status": "Programa provisorio · sujeto a modificaciones."
     },
     {
       "id": "himno",
