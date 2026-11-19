@@ -147,7 +147,52 @@
       "title": "Himno de la Universidad Nacional de Cuyo",
       "group": "El acto",
       "kind": "hymn",
-      "url": "https://colacionfcpys.myportfolio.com/himno-de-la-universidad-nacional-de-cuyo"
+      "stanzas": [
+        [
+          "Cuyo preclaro y fragoso",
+          "de patria ardido crisol",
+          "cuna de bravos varones",
+          "abierta tierra del sol.",
+          "la ciencia y el arte elevan",
+          "sus voces de juventud",
+          "oro fiel de tus montañas",
+          "y aroma de tu inquietud."
+        ],
+        [
+          "Somos racimos",
+          "de un viñedo feraz",
+          "vino futuro",
+          "de las mesas de paz",
+          "surco es el aula",
+          "gleba santa el saber",
+          "agua fecunda",
+          "la herencia gloriosa de ayer"
+        ],
+        [
+          "Del Tupungato al Chorrillo",
+          "del Zonda tórrido al sur",
+          "dos estrellas nos alumbran",
+          "con Sarmiento y Lafinur",
+          "y entre sombras tutelares",
+          "heroico templa el clarín",
+          "del mendocino honorario",
+          "Don José de San Martín"
+        ],
+        [
+          "Temblor de alas",
+          "cobre afán y emoción",
+          "cierne el espíritu",
+          "como reza el blasón",
+          "y en cumbre y llano",
+          "junto al brazo triunfal",
+          "canta la mente",
+          "vendimia de luz augural."
+        ]
+      ],
+      "credits": {
+        "lyrics": "Alfredo GUIÑAZÚ",
+        "music": "Julio PÉRCEVAL"
+      }
     },
     {
       "id": "doctorado",
