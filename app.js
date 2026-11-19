@@ -20,7 +20,10 @@ function sectionBody(section, courses, query) {
     return section.people.map(([role,name]) => `<div class="person"><span>${escapeHTML(role)}</span><strong>${escapeHTML(name)}</strong></div>`).join('') + `<a class="detail-source" href="${escapeHTML(section.source)}" target="_blank" rel="noopener">Autoridades en el sitio institucional ↗</a>`;
   }
   if (section.kind === 'program') return `<p class="status-note">${escapeHTML(section.status)}</p><ol class="program">${section.items.map(item=>`<li>${escapeHTML(item)}</li>`).join('')}</ol>`;
-  if (section.kind === 'hymn') return `<p class="hymn-copy">Himno de la Universidad Nacional de Cuyo.</p><a class="button" href="${escapeHTML(section.url)}" target="_blank" rel="noopener">Consultar el himno <span aria-hidden="true">↗</span></a>`;
+  if (section.kind === 'hymn') {
+    const stanzas = section.stanzas.map(lines => `<p class="hymn-stanza">${lines.map(escapeHTML).join('<br>')}</p>`);
+    return `<div class="hymn-text"><div class="hymn-columns"><div>${stanzas.slice(0,2).join('')}</div><div>${stanzas.slice(2).join('')}</div></div><p class="hymn-credits">Letra: ${escapeHTML(section.credits.lyrics)}<br>Música: ${escapeHTML(section.credits.music)}</p></div>`;
+  }
   return courses.map(course=>`<div class="course">${section.courses.length>1 ? `<h4>${escapeHTML(course.title)}</h4>`:''}<ul class="names">${course.names.map(name=>nameHTML(name,query)).join('')}</ul></div>`).join('');
 }
 function render(query='') {
@@ -68,7 +71,7 @@ function openHash() {
 }
 async function init(){
   try {
-    const response=await fetch('contenido.json');
+    const response=await fetch('contenido.json?v=20261119-himno');
     if(!response.ok) throw new Error('Contenido no disponible');
     content=await response.json();
     render();openHash();
