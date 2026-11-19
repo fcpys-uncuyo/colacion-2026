@@ -71,7 +71,7 @@ function openHash() {
 }
 async function init(){
   try {
-    const response=await fetch('contenido.json?v=20261119-himno');
+    const response=await fetch('contenido.json', { cache: 'no-store' });
     if(!response.ok) throw new Error('Contenido no disponible');
     content=await response.json();
     render();openHash();
