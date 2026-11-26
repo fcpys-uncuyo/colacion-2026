@@ -19,7 +19,7 @@ function sectionBody(section, courses, query) {
   if (section.kind === 'authorities') {
     return section.people.map(([role,name]) => `<div class="person"><span>${escapeHTML(role)}</span><strong>${escapeHTML(name)}</strong></div>`).join('') + `<a class="detail-source" href="${escapeHTML(section.source)}" target="_blank" rel="noopener">Autoridades en el sitio institucional ↗</a>`;
   }
-  if (section.kind === 'program') return `<p class="status-note">${escapeHTML(section.status)}</p><ol class="program">${section.items.map(item=>`<li>${escapeHTML(item)}</li>`).join('')}</ol>`;
+  if (section.kind === 'program') return `${section.status ? `<p class="status-note">${escapeHTML(section.status)}</p>` : ''}<ol class="program">${section.items.map(item=>`<li>${escapeHTML(item)}</li>`).join('')}</ol>`;
   if (section.kind === 'hymn') {
     const stanzas = section.stanzas.map(lines => `<p class="hymn-stanza">${lines.map(escapeHTML).join('<br>')}</p>`);
     return `<div class="hymn-text"><div class="hymn-columns"><div>${stanzas.slice(0,2).join('')}</div><div>${stanzas.slice(2).join('')}</div></div><p class="hymn-credits">Letra: ${escapeHTML(section.credits.lyrics)}<br>Música: ${escapeHTML(section.credits.music)}</p></div>`;
